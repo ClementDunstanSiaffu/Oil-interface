@@ -14,15 +14,17 @@ function Home({data}){
      <Col xs = "auto">
        {one.level === "1" ? (
        <div className = "cols-items">
-         <span className = "state-okay">State : Okay <div className = "green-ball"></div></span>
+         <span className = "state-okay">State : Fuel okay <div className = "green-ball"></div></span>
         <div className = "time-okay">Time : {one.time}</div>
         <div className = "date-okay">Date : {one.date}</div>
+        <div className = "date-okay">Plate No : T 940 DGY</div>
        </div>):(
        
        <div className = "cols-items">
-       <span className = "state-okay">State : Danger <div className = "red-ball"></div></span>
+       <span className = "state-okay">State : Fuel theft <div className = "red-ball"></div></span>
       <div className = "time-okay">Time : {one.time}</div>
       <div className = "date-okay">Date : {one.date}</div>
+      <div className = "date-okay">Plate No : T 940 DGY</div>
      </div>)}
      
      </Col>)}
